@@ -12,13 +12,13 @@
         <link rel="stylesheet" href="tailwind.css">
     </head>
     <body>
-        <main class="font-serif text-gray-700 text-lg mx-auto max-w-prose py-16">
+        <main class="font-serif text-gray-700 text-lg mx-auto max-w-prose p-4 md:py-10">
             <section>
                 <h1 class="mb-2 text-black text-3xl">
                     Rubén Herrero Rabadán
                 </h1>
-                <div class="flex">
-                    <ul class="flex-1">
+                <div class="flex flex-wrap">
+                    <ul class="flex-auto">
                         <li>
                             Fecha nacimiento: <time datetime="1990-03-22">22/03/1990</time>
                         </li>
@@ -43,9 +43,14 @@
                         </li>
                     </ul>
                     <div class="print:invisible">
-                        <button onclick="window.print()">
-                            Imprimir
-                        </button>
+                        <a
+                            class="text-blue-900 font-bold"
+                            href="Ruben_Herrero_CV.pdf"
+                            target="_blank"
+                            download
+                        >
+                            Descargar en PDF
+                        </a>
                     </div>
                 </div>
             </section>
@@ -227,7 +232,7 @@
                             class="text-blue-900 font-bold"
                             rel="noreferrer noopener"
                             target="_blank"
-                            href="https://www.oknlearning.com/en/"
+                            href="https://www.oknlearning.com/"
                         >OKN-LEARNING</a> — 2017-2019
                     </h2>
 
