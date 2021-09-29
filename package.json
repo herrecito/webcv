@@ -1,0 +1,15 @@
+{
+    "name": "webcv",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Rubén Herrero <ruben@tierra.audio>",
+    "license": "MIT",
+    "dependencies": {
+        "http-server": "^13.0.2",
+        "tailwindcss": "^2.2.16"
+    },
+    "scripts": {
+        "build": "NODE_ENV=production tailwindcss -i styles.css -o tailwind.css --minify",
+        "serve": "http-server"
+    }
+}
